@@ -77,7 +77,11 @@ function JobDetails() {
               <div className="item-info">
                 <div className="item-image-box">
                   <div className="item-image">
-                    <img src="images/job/4.png" alt="Image" className="img-fluid" />
+                    <img
+                      src="images/job/4.png"
+                      alt="Image"
+                      className="img-fluid"
+                    />
                   </div>
                 </div>
                 <div className="ad-info">
@@ -93,28 +97,34 @@ function JobDetails() {
                     <ul>
                       <li>
                         <a href="#">
-                          <i className="fa fa-map-marker" aria-hidden="true"></i>San
-                          Francisco, CA, US
+                          <i
+                            className="fa fa-map-marker"
+                            aria-hidden="true"
+                          ></i>
+                          San Francisco, CA, US
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fa fa-clock-o" aria-hidden="true"></i>Full
-                          Time
+                          <i className="fa fa-clock-o" aria-hidden="true"></i>
+                          Full Time
                         </a>
                       </li>
                       <li>
-                        <i className="fa fa-money" aria-hidden="true"></i>$25,000 -
-                        $35,000
+                        <i className="fa fa-money" aria-hidden="true"></i>
+                        $25,000 - $35,000
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fa fa-tags" aria-hidden="true"></i>HR/Org.
-                          Development
+                          <i className="fa fa-tags" aria-hidden="true"></i>
+                          HR/Org. Development
                         </a>
                       </li>
                       <li>
-                        <i className="fa fa-hourglass-start" aria-hidden="true"></i>
+                        <i
+                          className="fa fa-hourglass-start"
+                          aria-hidden="true"
+                        ></i>
                         Application Deadline : Jan 10, 2017
                       </li>
                     </ul>
@@ -124,23 +134,30 @@ function JobDetails() {
               <div className="social-media">
                 <div className="button">
                   <a href="#" className="btn btn-primary">
-                    <i className="fa fa-briefcase" aria-hidden="true"></i>Apply For
-                    This Job
+                    <i className="fa fa-briefcase" aria-hidden="true"></i>Apply
+                    For This Job
                   </a>
                   <a href="#" className="btn btn-primary bookmark">
-                    <i className="fa fa-bookmark-o" aria-hidden="true"></i>Bookmark
+                    <i className="fa fa-bookmark-o" aria-hidden="true"></i>
+                    Bookmark
                   </a>
                 </div>
                 <ul className="share-social">
                   <li>Share this ad</li>
                   <li>
                     <a href="#">
-                      <i className="fa fa-facebook-official" aria-hidden="true"></i>
+                      <i
+                        className="fa fa-facebook-official"
+                        aria-hidden="true"
+                      ></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fa fa-twitter-square" aria-hidden="true"></i>
+                      <i
+                        className="fa fa-twitter-square"
+                        aria-hidden="true"
+                      ></i>
                     </a>
                   </li>
                   <li>
@@ -153,12 +170,18 @@ function JobDetails() {
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                      <i
+                        className="fa fa-linkedin-square"
+                        aria-hidden="true"
+                      ></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i className="fa fa-pinterest-square" aria-hidden="true"></i>
+                      <i
+                        className="fa fa-pinterest-square"
+                        aria-hidden="true"
+                      ></i>
                     </a>
                   </li>
                   <li>
@@ -269,7 +292,10 @@ function JobDetails() {
                       </li>
                       <li>
                         <span className="icon">
-                          <i className="fa fa-line-chart" aria-hidden="true"></i>
+                          <i
+                            className="fa fa-line-chart"
+                            aria-hidden="true"
+                          ></i>
                         </span>
                         Experience: <a href="#">Entry level</a>
                       </li>
@@ -297,8 +323,8 @@ function JobDetails() {
                         Email:{" "}
                         <a href="#">
                           <span
-                            // className="__cf_email__"
-                            // data-cfemail="0960676f66496d7b66796b6671276a6664"
+                            className="__cf_email__"
+                            data-cfemail="0960676f66496d7b66796b6671276a6664"
                           >
                             [email&#160;protected]
                           </span>
@@ -369,7 +395,7 @@ function JobDetails() {
 
       <Footer />
     </div>
-  );
+  )
 }
 
 export default JobDetails;

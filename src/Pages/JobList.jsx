@@ -10,7 +10,7 @@ function JobList() {
           <div className="breadcrumb-section">
             <ol className="breadcrumb">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>Engineer/Architects</li>
             </ol>
@@ -92,7 +92,7 @@ function JobList() {
                       >
                         <div className="panel-body">
                           <h5>
-                            <a href="categories-main.html">
+                            <a href="#">
                               <i className="fa fa-caret-down"></i> All Categories
                             </a>
                           </h5>
@@ -583,7 +583,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/1.png"
                               alt="Image"
@@ -594,7 +594,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Project Manager
                           </a>{" "}
                           @ <a href="#">Dominos Pizza</a>
@@ -631,7 +631,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/2.png"
                               alt="Image"
@@ -642,7 +642,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Graphics Designer
                           </a>{" "}
                           @ <a href="#">AOK Security</a>
@@ -679,7 +679,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/4.png"
                               alt="Image"
@@ -690,7 +690,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             CTO
                           </a>{" "}
                           @ <a href="#">Volja Events & Entertainment</a>
@@ -727,7 +727,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/7.png"
                               alt="Image"
@@ -738,7 +738,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Industrial Manager
                           </a>{" "}
                           @ <a href="#">Total Gas</a>
@@ -775,7 +775,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/8.png"
                               alt="Image"
@@ -786,7 +786,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Software Engineer
                           </a>{" "}
                           @ <a href="#">Dell</a>
@@ -823,7 +823,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/9.png"
                               alt="Image"
@@ -834,7 +834,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Human Resource Manager
                           </a>{" "}
                           @ <a href="#">Acrobat</a>
@@ -871,7 +871,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/10.png"
                               alt="Image"
@@ -882,7 +882,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Program Development
                           </a>{" "}
                           @ <a href="#">Adidus</a>
@@ -928,7 +928,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/11.png"
                               alt="Image"
@@ -939,7 +939,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             CTO
                           </a>{" "}
                           @ <a href="#">IBM</a>
@@ -976,7 +976,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/12.png"
                               alt="Image"
@@ -987,7 +987,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Human Resource Manager
                           </a>{" "}
                           @ <a href="#">BP</a>
@@ -1024,7 +1024,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/13.png"
                               alt="Image"
@@ -1035,7 +1035,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Industrial Manager
                           </a>{" "}
                           @ <a href="#">SaraLee</a>
@@ -1072,7 +1072,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/14.png"
                               alt="Image"
@@ -1083,7 +1083,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Software Engineer
                           </a>{" "}
                           @ <a href="#">Daman</a>
@@ -1120,7 +1120,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/15.png"
                               alt="Image"
@@ -1131,7 +1131,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Program Development
                           </a>{" "}
                           @ <a href="#">Helix</a>
@@ -1168,7 +1168,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/16.png"
                               alt="Image"
@@ -1179,7 +1179,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             CTO
                           </a>{" "}
                           @ <a href="#">Dutrigo</a>
@@ -1216,7 +1216,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/17.png"
                               alt="Image"
@@ -1227,7 +1227,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Software Engineer
                           </a>{" "}
                           @ <a href="#">Costa Rica</a>
@@ -1264,7 +1264,7 @@ function JobList() {
                     <div className="item-info">
                       <div className="item-image-box">
                         <div className="item-image">
-                          <a href="job-details.html">
+                          <a href="/job-details">
                             <img
                               src="images/job/18.png"
                               alt="Image"
@@ -1275,7 +1275,7 @@ function JobList() {
                       </div>
                       <div className="ad-info">
                         <span>
-                          <a href="job-details.html" className="title">
+                          <a href="/job-details" className="title">
                             Program Development
                           </a>{" "}
                           @ <a href="#">HSBC</a>

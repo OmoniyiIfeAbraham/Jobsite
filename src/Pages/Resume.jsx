@@ -10,7 +10,7 @@ function Resume() {
           <div className="breadcrumb-section">
             <ol className="breadcrumb">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>Candidate Profile</li>
             </ol>
@@ -435,7 +435,7 @@ function Resume() {
           <div className="breadcrumb-section">
             <ol className="breadcrumb">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>Candidate Profile</li>
             </ol>

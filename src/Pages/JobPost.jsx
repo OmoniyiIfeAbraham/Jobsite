@@ -10,7 +10,7 @@ function JobPost() {
           <div className="breadcrumb-section">
             <ol className="breadcrumb">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>Job Post </li>
             </ol>
