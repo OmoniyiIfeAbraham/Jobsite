@@ -11,6 +11,8 @@ import JobList from "./Pages/JobList.jsx";
 import JobDetails from "./Pages/JobDetails.jsx";
 import Resume from "./Pages/Resume.jsx";
 import Profile from "./Pages/Profile.jsx";
+import PostResume from "./Pages/PostResume";
+import JobPost from "./Pages/JobPost";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/job-details" element={<JobDetails />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/post-resume" element={<PostResume />} />
+          <Route path="/job-post" element={<JobPost />} />
         </Routes>
       </Router>
     </div>

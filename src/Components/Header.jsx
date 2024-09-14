@@ -38,15 +38,15 @@ function Header({ page }) {
                 </li>
                 <li
                   class={
-                    (page == "profile") |
-                    "postResume" |
-                    "post" |
-                    "editResume" |
-                    "profileDetails" |
-                    "bookmark" |
-                    "appliedJob" |
-                    "deleteAccount" |
-                    "signup" |
+                    page == "profile" ||
+                    "postResume" ||
+                    "post" ||
+                    "editResume" ||
+                    "profileDetails" ||
+                    "bookmark" ||
+                    "appliedJob" ||
+                    "deleteAccount" ||
+                    "signup" ||
                     "signin"
                       ? "dropdown active"
                       : "dropdown"
@@ -64,10 +64,10 @@ function Header({ page }) {
                       <a href="/profile">Profile</a>
                     </li>
                     <li class={page == "postResume" ? "active" : null}>
-                      <a href="post-resume.html">Post Resume</a>
+                      <a href="/post-resume">Post Resume</a>
                     </li>
                     <li class={page == "post" ? "active" : null}>
-                      <a href="post.html">Job Post</a>
+                      <a href="/job-post">Job Post</a>
                     </li>
                     <li class={page == "editResume" ? "active" : null}>
                       <a href="edit-resume.html">Edit Resume</a>
