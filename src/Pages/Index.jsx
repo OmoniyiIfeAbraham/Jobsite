@@ -69,7 +69,7 @@ const Index = () => {
           <div className="section category-items job-category-items  text-center">
             <ul className="category-list">
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/1.png"
@@ -82,7 +82,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/2.png"
@@ -95,7 +95,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/3.png"
@@ -108,7 +108,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/4.png"
@@ -121,7 +121,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/5.png"
@@ -134,7 +134,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/6.png"
@@ -147,7 +147,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/7.png"
@@ -160,7 +160,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/8.png"
@@ -173,7 +173,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/9.png"
@@ -186,7 +186,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/10.png"
@@ -199,7 +199,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/11.png"
@@ -212,7 +212,7 @@ const Index = () => {
                 </a>
               </li>
               <li className="category-item">
-                <a href="job-list.html">
+                <a href="/job-list">
                   <div className="category-icon">
                     <img
                       src="images/icon/12.png"
@@ -254,7 +254,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/3.png"
                             alt="Image"
@@ -265,7 +265,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           CTO
                         </a>{" "}
                         @ <a href="#">Volja Events & Entertainment</a>
@@ -313,7 +313,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/1.png"
                             alt="Image"
@@ -324,7 +324,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           Project Manager
                         </a>{" "}
                         @ <a href="#">Dominos Pizza</a>
@@ -372,7 +372,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/2.png"
                             alt="Image"
@@ -383,7 +383,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           Graphics Designer
                         </a>{" "}
                         @ <a href="#">AOK Security</a>
@@ -431,7 +431,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/4.png"
                             alt="Image"
@@ -442,7 +442,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           Human Resource Manager
                         </a>{" "}
                         @ <a href="#">Dropbox Inc</a>
@@ -492,7 +492,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/2.png"
                             alt="Image"
@@ -503,7 +503,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           Graphics Designer
                         </a>{" "}
                         @ <a href="#">AOK Security</a>
@@ -551,7 +551,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/1.png"
                             alt="Image"
@@ -562,7 +562,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           Project Manager
                         </a>{" "}
                         @ <a href="#">Dominos Pizza</a>
@@ -610,7 +610,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/4.png"
                             alt="Image"
@@ -621,7 +621,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           Human Resource Manager
                         </a>{" "}
                         @ <a href="#">Dropbox Inc</a>
@@ -669,7 +669,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/3.png"
                             alt="Image"
@@ -680,7 +680,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           CTO
                         </a>{" "}
                         @ <a href="#">Volja Events & Entertainment</a>
@@ -734,7 +734,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/1.png"
                             alt="Image"
@@ -745,7 +745,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           Project Manager
                         </a>{" "}
                         @ <a href="#">Dominos Pizza</a>
@@ -793,7 +793,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/2.png"
                             alt="Image"
@@ -804,7 +804,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           Graphics Designer
                         </a>{" "}
                         @ <a href="#">AOK Security</a>
@@ -852,7 +852,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/3.png"
                             alt="Image"
@@ -863,7 +863,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           CTO
                         </a>{" "}
                         @ <a href="#">Volja Events & Entertainment</a>
@@ -911,7 +911,7 @@ const Index = () => {
                   <div className="item-info">
                     <div className="item-image-box">
                       <div className="item-image">
-                        <a href="job-details.html">
+                        <a href="/job-details">
                           <img
                             src="images/job/4.png"
                             alt="Image"
@@ -922,7 +922,7 @@ const Index = () => {
                     </div>
                     <div className="ad-info">
                       <span>
-                        <a href="job-details.html" className="title">
+                        <a href="/job-details" className="title">
                           Human Resource Manager
                         </a>{" "}
                         @ <a href="#">Dropbox Inc</a>
