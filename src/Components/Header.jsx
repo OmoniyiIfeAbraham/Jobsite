@@ -70,10 +70,10 @@ function Header({ page }) {
                       <a href="/job-post">Job Post</a>
                     </li>
                     <li class={page == "editResume" ? "active" : null}>
-                      <a href="edit-resume.html">Edit Resume</a>
+                      <a href="/edit-resume">Edit Resume</a>
                     </li>
                     <li class={page == "profileDetails" ? "active" : null}>
-                      <a href="profile-details.html">profile Details</a>
+                      <a href="/profile-details">profile Details</a>
                     </li>
                     <li class={page == "bookmark" ? "active" : null}>
                       <a href="bookmark.html">Bookmark</a>

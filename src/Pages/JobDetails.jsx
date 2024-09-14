@@ -297,8 +297,8 @@ function JobDetails() {
                         Email:{" "}
                         <a href="#">
                           <span
-                            class="__cf_email__"
-                            data-cfemail="0960676f66496d7b66796b6671276a6664"
+                            // class="__cf_email__"
+                            // data-cfemail="0960676f66496d7b66796b6671276a6664"
                           >
                             [email&#160;protected]
                           </span>

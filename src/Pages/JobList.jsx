@@ -199,22 +199,20 @@ function JobList() {
                         data-parent="#tr-accordion"
                       >
                         <div class="panel-body">
-                          <label for="today">
-                            <input type="checkbox" name="today" id="today" />{" "}
-                            Today
-                          </label>
-                          <label for="7-days">
-                            <input type="checkbox" name="7-days" id="7-days" />{" "}
-                            7 days
-                          </label>
-                          <label for="30-days">
-                            <input
-                              type="checkbox"
-                              name="30-days"
-                              id="30-days"
-                            />{" "}
-                            30 days
-                          </label>
+                          <label for="today">Today</label>
+                          <input type="checkbox" name="today" id="today" />{" "}
+                          <label for="7-days">7 days</label>
+                          <input
+                            type="checkbox"
+                            name="7-days"
+                            id="7-days"
+                          />{" "}
+                          <label for="30-days">30 days</label>
+                          <input
+                            type="checkbox"
+                            name="30-days"
+                            id="30-days"
+                          />{" "}
                         </div>
                       </div>
                     </div>
@@ -297,42 +295,36 @@ function JobList() {
                         data-parent="#tr-accordion"
                       >
                         <div class="panel-body">
-                          <label for="full-time">
-                            <input
-                              type="checkbox"
-                              name="full-time"
-                              id="full-time"
-                            />{" "}
-                            Full Time
-                          </label>
-                          <label for="part-time">
-                            <input
-                              type="checkbox"
-                              name="part-time"
-                              id="part-time"
-                            />{" "}
-                            Part Time
-                          </label>
-                          <label for="contractor">
-                            <input
-                              type="checkbox"
-                              name="contractor"
-                              id="contractor"
-                            />{" "}
-                            Contractor
-                          </label>
-                          <label for="intern">
-                            <input type="checkbox" name="intern" id="intern" />{" "}
-                            Intern
-                          </label>
-                          <label for="seasonal">
-                            <input
-                              type="checkbox"
-                              name="seasonal"
-                              id="seasonal"
-                            />{" "}
-                            Seasonal / Temp
-                          </label>
+                          <label for="full-time">Full Time</label>
+                          <input
+                            type="checkbox"
+                            name="full-time"
+                            id="full-time"
+                          />{" "}
+                          <label for="part-time">Part Time</label>
+                          <input
+                            type="checkbox"
+                            name="part-time"
+                            id="part-time"
+                          />{" "}
+                          <label for="contractor">Contractor</label>
+                          <input
+                            type="checkbox"
+                            name="contractor"
+                            id="contractor"
+                          />{" "}
+                          <label for="intern">Intern</label>
+                          <input
+                            type="checkbox"
+                            name="intern"
+                            id="intern"
+                          />{" "}
+                          <label for="seasonal">Seasonal / Temp</label>
+                          <input
+                            type="checkbox"
+                            name="seasonal"
+                            id="seasonal"
+                          />{" "}
                         </div>
                       </div>
                     </div>
@@ -354,38 +346,30 @@ function JobList() {
                         data-parent="#tr-accordion"
                       >
                         <div class="panel-body">
-                          <label for="training">
-                            <input
-                              type="checkbox"
-                              name="training"
-                              id="training"
-                            />{" "}
-                            Training
-                          </label>
-                          <label for="entry-level">
-                            <input
-                              type="checkbox"
-                              name="entry-level"
-                              id="entry-level"
-                            />{" "}
-                            Entry Level
-                          </label>
-                          <label for="mid-senior">
-                            <input
-                              type="checkbox"
-                              name="mid-senior"
-                              id="mid-senior"
-                            />{" "}
-                            Mid-Senior Level
-                          </label>
-                          <label for="top-level">
-                            <input
-                              type="checkbox"
-                              name="top-level"
-                              id="top-level"
-                            />{" "}
-                            Top Level
-                          </label>
+                          <label for="training">Training</label>
+                          <input
+                            type="checkbox"
+                            name="training"
+                            id="training"
+                          />{" "}
+                          <label for="entry-level">Entry Level</label>
+                          <input
+                            type="checkbox"
+                            name="entry-level"
+                            id="entry-level"
+                          />{" "}
+                          <label for="mid-senior">Mid-Senior Level</label>
+                          <input
+                            type="checkbox"
+                            name="mid-senior"
+                            id="mid-senior"
+                          />{" "}
+                          <label for="top-level">Top Level</label>
+                          <input
+                            type="checkbox"
+                            name="top-level"
+                            id="top-level"
+                          />{" "}
                         </div>
                       </div>
                     </div>
@@ -412,46 +396,34 @@ function JobList() {
                             placeholder="Search Company"
                             class="form-control"
                           />
-                          <label for="apple">
-                            <input type="checkbox" name="apple" id="apple" />{" "}
-                            Apple
-                          </label>
-                          <label for="dropbox">
-                            <input
-                              type="checkbox"
-                              name="dropbox"
-                              id="dropbox"
-                            />{" "}
-                            Dropbox
-                          </label>
-                          <label for="micromax">
-                            <input
-                              type="checkbox"
-                              name="micromax"
-                              id="micromax"
-                            />{" "}
-                            Micromax
-                          </label>
-                          <label for="nokia">
-                            <input type="checkbox" name="nokia" id="nokia" />{" "}
-                            Nokia
-                          </label>
-                          <label for="microsoft">
-                            <input
-                              type="checkbox"
-                              name="microsoft"
-                              id="microsoft"
-                            />{" "}
-                            Microsoft
-                          </label>
-                          <label for="samsung">
-                            <input
-                              type="checkbox"
-                              name="samsung"
-                              id="samsung"
-                            />{" "}
-                            Samsung
-                          </label>
+                          <label for="apple">Apple</label>
+                          <input type="checkbox" name="apple" id="apple" />{" "}
+                          <label for="dropbox">Dropbox</label>
+                          <input
+                            type="checkbox"
+                            name="dropbox"
+                            id="dropbox"
+                          />{" "}
+                          <label for="micromax">Micromax</label>
+                          <input
+                            type="checkbox"
+                            name="micromax"
+                            id="micromax"
+                          />{" "}
+                          <label for="nokia">Nokia</label>
+                          <input type="checkbox" name="nokia" id="nokia" />{" "}
+                          <label for="microsoft">Microsoft</label>
+                          <input
+                            type="checkbox"
+                            name="microsoft"
+                            id="microsoft"
+                          />{" "}
+                          <label for="samsung">Samsung</label>
+                          <input
+                            type="checkbox"
+                            name="samsung"
+                            id="samsung"
+                          />{" "}
                           <div class="see-more">
                             <button type="button" class="show-more two">
                               <i
@@ -461,30 +433,24 @@ function JobList() {
                               See More
                             </button>
                             <div class="more-category two">
-                              <label for="blackBerry">
-                                <input
-                                  type="checkbox"
-                                  name="blackBerry"
-                                  id="blackBerry"
-                                />
-                                BlackBerry
-                              </label>
-                              <label for="motorola">
-                                <input
-                                  type="checkbox"
-                                  name="motorola"
-                                  id="motorola"
-                                />
-                                Motorola
-                              </label>
-                              <label for="lenovo">
-                                <input
-                                  type="checkbox"
-                                  name="lenovo"
-                                  id="lenovo"
-                                />
-                                Lenovo
-                              </label>
+                              <label for="blackBerry">BlackBerry</label>
+                              <input
+                                type="checkbox"
+                                name="blackBerry"
+                                id="blackBerry"
+                              />
+                              <label for="motorola">Motorola</label>
+                              <input
+                                type="checkbox"
+                                name="motorola"
+                                id="motorola"
+                              />
+                              <label for="lenovo">Lenovo</label>
+                              <input
+                                type="checkbox"
+                                name="lenovo"
+                                id="lenovo"
+                              />
                             </div>
                           </div>
                         </div>
@@ -513,50 +479,42 @@ function JobList() {
                             placeholder="Search Location"
                             class="form-control"
                           />
-                          <label for="angeles">
-                            <input
-                              type="checkbox"
-                              name="angeles"
-                              id="angeles"
-                            />{" "}
-                            Los Angeles, CA
-                          </label>
-                          <label for="kingdom">
-                            <input
-                              type="checkbox"
-                              name="kingdom"
-                              id="kingdom"
-                            />{" "}
-                            United Kingdom
-                          </label>
-                          <label for="states">
-                            <input type="checkbox" name="states" id="states" />{" "}
-                            United States
-                          </label>
-                          <label for="columbia">
-                            <input
-                              type="checkbox"
-                              name="columbia"
-                              id="columbia"
-                            />{" "}
-                            British Columbia
-                          </label>
-                          <label for="australia">
-                            <input
-                              type="checkbox"
-                              name="australia"
-                              id="australia"
-                            />{" "}
-                            Australia
-                          </label>
-                          <label for="germany">
-                            <input
-                              type="checkbox"
-                              name="germany"
-                              id="germany"
-                            />{" "}
-                            Germany
-                          </label>
+                          <label for="angeles">Los Angeles, CA</label>
+                          <input
+                            type="checkbox"
+                            name="angeles"
+                            id="angeles"
+                          />{" "}
+                          <label for="kingdom">United Kingdom</label>
+                          <input
+                            type="checkbox"
+                            name="kingdom"
+                            id="kingdom"
+                          />{" "}
+                          <label for="states">United States</label>
+                          <input
+                            type="checkbox"
+                            name="states"
+                            id="states"
+                          />{" "}
+                          <label for="columbia">British Columbia</label>
+                          <input
+                            type="checkbox"
+                            name="columbia"
+                            id="columbia"
+                          />{" "}
+                          <label for="australia">Australia</label>
+                          <input
+                            type="checkbox"
+                            name="australia"
+                            id="australia"
+                          />{" "}
+                          <label for="germany">Germany</label>
+                          <input
+                            type="checkbox"
+                            name="germany"
+                            id="germany"
+                          />{" "}
                           <div class="see-more">
                             <button type="button" class="show-more three">
                               <i
@@ -566,38 +524,30 @@ function JobList() {
                               See More
                             </button>
                             <div class="more-category three">
-                              <label for="belgium">
-                                <input
-                                  type="checkbox"
-                                  name="belgium"
-                                  id="belgium"
-                                />
-                                Belgium
-                              </label>
-                              <label for="brazil">
-                                <input
-                                  type="checkbox"
-                                  name="brazil"
-                                  id="brazil"
-                                />
-                                Brazil
-                              </label>
-                              <label for="denmark">
-                                <input
-                                  type="checkbox"
-                                  name="denmark"
-                                  id="denmark"
-                                />
-                                Denmark
-                              </label>
-                              <label for="indonesia">
-                                <input
-                                  type="checkbox"
-                                  name="indonesia"
-                                  id="indonesia"
-                                />
-                                Indonesia
-                              </label>
+                              <label for="belgium">Belgium</label>
+                              <input
+                                type="checkbox"
+                                name="belgium"
+                                id="belgium"
+                              />
+                              <label for="brazil">Brazil</label>
+                              <input
+                                type="checkbox"
+                                name="brazil"
+                                id="brazil"
+                              />
+                              <label for="denmark">Denmark</label>
+                              <input
+                                type="checkbox"
+                                name="denmark"
+                                id="denmark"
+                              />
+                              <label for="indonesia">Indonesia</label>
+                              <input
+                                type="checkbox"
+                                name="indonesia"
+                                id="indonesia"
+                              />
                             </div>
                           </div>
                         </div>

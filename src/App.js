@@ -13,6 +13,8 @@ import Resume from "./Pages/Resume.jsx";
 import Profile from "./Pages/Profile.jsx";
 import PostResume from "./Pages/PostResume";
 import JobPost from "./Pages/JobPost";
+import EditResume from "./Pages/EditResume";
+import ProfileDetails from "./Pages/ProfileDetails";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/post-resume" element={<PostResume />} />
           <Route path="/job-post" element={<JobPost />} />
+          <Route path="/edit-resume" element={<EditResume />} />
+          <Route path="/profile-details" element={<ProfileDetails />} />
         </Routes>
       </Router>
     </div>
