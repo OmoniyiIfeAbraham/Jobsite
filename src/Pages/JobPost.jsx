@@ -5,40 +5,40 @@ function JobPost() {
   return (
     <div>
       <Header page="post" />
-      <section class=" job-bg ad-details-page">
-        <div class="container">
-          <div class="breadcrumb-section">
-            <ol class="breadcrumb">
+      <section className=" job-bg ad-details-page">
+        <div className="container">
+          <div className="breadcrumb-section">
+            <ol className="breadcrumb">
               <li>
                 <a href="index.html">Home</a>
               </li>
               <li>Job Post </li>
             </ol>
-            <h2 class="title">Post Your Job</h2>
+            <h2 className="title">Post Your Job</h2>
           </div>
-          <div class="job-postdetails">
-            <div class="row">
-              <div class="col-lg-8">
+          <div className="job-postdetails">
+            <div className="row">
+              <div className="col-lg-8">
                 <form action="#">
                   <fieldset>
-                    <div class="section postdetails">
+                    <div className="section postdetails">
                       <h4>
                         Post Your Job
-                        <span class="pull-right">* Mandatory Fields</span>
+                        <span className="pull-right">* Mandatory Fields</span>
                       </h4>
-                      <div class="row form-group add-title">
-                        <label class="col-sm-3 label-title">Job Category</label>
-                        <div class="col-sm-9">
-                          <div class="dropdown category-dropdown">
+                      <div className="row form-group add-title">
+                        <label className="col-sm-3 label-title">Job Category</label>
+                        <div className="col-sm-9">
+                          <div className="dropdown category-dropdown">
                             <a
                               data-toggle="dropdown"
                               href="#"
                               aria-expanded="false"
                             >
-                              <span class="change-text">Select a category</span>{" "}
-                              <i class="fa fa-angle-down pull-right"></i>
+                              <span className="change-text">Select a category</span>{" "}
+                              <i className="fa fa-angle-down pull-right"></i>
                             </a>
-                            <ul class="dropdown-menu category-change">
+                            <ul className="dropdown-menu category-change">
                               <li>
                                 <a href="#">Select a category</a>
                               </li>
@@ -58,11 +58,11 @@ function JobPost() {
                           </div>
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-sm-3">
-                          Job Type<span class="required">*</span>
+                      <div className="row form-group">
+                        <label className="col-sm-3">
+                          Job Type<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9 user-type">
+                        <div className="col-sm-9 user-type">
                           <input
                             type="radio"
                             name="sellType"
@@ -93,51 +93,51 @@ function JobPost() {
                           <label for="contract">Contract</label>
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-sm-3 label-title">
-                          Title for your jonb<span class="required">*</span>
+                      <div className="row form-group">
+                        <label className="col-sm-3 label-title">
+                          Title for your jonb<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
+                        <div className="col-sm-9">
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             placeholder="ex, Human Resource Manager"
                           />
                         </div>
                       </div>
-                      <div class="row form-group item-description">
-                        <label class="col-sm-3 label-title">
-                          Description<span class="required">*</span>
+                      <div className="row form-group item-description">
+                        <label className="col-sm-3 label-title">
+                          Description<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
+                        <div className="col-sm-9">
                           <textarea
-                            class="form-control"
+                            className="form-control"
                             id="textarea"
                             placeholder="Write few lines about your jobs"
                             rows="8"
                           ></textarea>
                         </div>
                       </div>
-                      <div class="row characters">
-                        <div class="col-sm-9 col-sm-offset-3">
+                      <div className="row characters">
+                        <div className="col-sm-9 col-sm-offset-3">
                           <p>5000 characters left</p>
                         </div>
                       </div>
-                      <div class="row form-group add-title location">
-                        <label class="col-sm-3 label-title">
-                          Location<span class="required">*</span>
+                      <div className="row form-group add-title location">
+                        <label className="col-sm-3 label-title">
+                          Location<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
-                          <div class="dropdown category-dropdown pull-left">
+                        <div className="col-sm-9">
+                          <div className="dropdown category-dropdown pull-left">
                             <a
                               data-toggle="dropdown"
                               href="#"
                               aria-expanded="false"
                             >
-                              <span class="change-text">Country</span>{" "}
-                              <i class="fa fa-angle-down pull-right"></i>
+                              <span className="change-text">Country</span>{" "}
+                              <i className="fa fa-angle-down pull-right"></i>
                             </a>
-                            <ul class="dropdown-menu category-change">
+                            <ul className="dropdown-menu category-change">
                               <li>
                                 <a href="#">Argentina</a>
                               </li>
@@ -155,16 +155,16 @@ function JobPost() {
                               </li>
                             </ul>
                           </div>
-                          <div class="dropdown category-dropdown pull-right">
+                          <div className="dropdown category-dropdown pull-right">
                             <a
                               data-toggle="dropdown"
                               href="#"
                               aria-expanded="false"
                             >
-                              <span class="change-text">State</span>{" "}
-                              <i class="fa fa-angle-down pull-right"></i>
+                              <span className="change-text">State</span>{" "}
+                              <i className="fa fa-angle-down pull-right"></i>
                             </a>
-                            <ul class="dropdown-menu category-change">
+                            <ul className="dropdown-menu category-change">
                               <li>
                                 <a href="#">State 1</a>
                               </li>
@@ -178,21 +178,21 @@ function JobPost() {
                           </div>
                         </div>
                       </div>
-                      <div class="row form-group select-price">
-                        <label class="col-sm-3 label-title">
-                          Salary<span class="required">*</span>
+                      <div className="row form-group select-price">
+                        <label className="col-sm-3 label-title">
+                          Salary<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
+                        <div className="col-sm-9">
                           <label>$USD</label>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Min"
                           />
                           <span>-</span>
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Max"
                           />
                           <input
@@ -204,21 +204,21 @@ function JobPost() {
                           <label for="negotiable">Negotiable </label>
                         </div>
                       </div>
-                      <div class="row form-group add-title">
-                        <label class="col-sm-3 label-title">
-                          Salary Type<span class="required">*</span>
+                      <div className="row form-group add-title">
+                        <label className="col-sm-3 label-title">
+                          Salary Type<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
-                          <div class="dropdown category-dropdown">
+                        <div className="col-sm-9">
+                          <div className="dropdown category-dropdown">
                             <a
                               data-toggle="dropdown"
                               href="#"
                               aria-expanded="false"
                             >
-                              <span class="change-text">Per Hour</span>{" "}
-                              <i class="fa fa-angle-down pull-right"></i>
+                              <span className="change-text">Per Hour</span>{" "}
+                              <i className="fa fa-angle-down pull-right"></i>
                             </a>
-                            <ul class="dropdown-menu category-change">
+                            <ul className="dropdown-menu category-change">
                               <li>
                                 <a href="#">Per Hour</a>
                               </li>
@@ -235,21 +235,21 @@ function JobPost() {
                           </div>
                         </div>
                       </div>
-                      <div class="row form-group add-title">
-                        <label class="col-sm-3 label-title">
-                          Exprience<span class="required">*</span>
+                      <div className="row form-group add-title">
+                        <label className="col-sm-3 label-title">
+                          Exprience<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
-                          <div class="dropdown category-dropdown">
+                        <div className="col-sm-9">
+                          <div className="dropdown category-dropdown">
                             <a
                               data-toggle="dropdown"
                               href="#"
                               aria-expanded="false"
                             >
-                              <span class="change-text">Mid Level</span>{" "}
-                              <i class="fa fa-angle-down pull-right"></i>
+                              <span className="change-text">Mid Level</span>{" "}
+                              <i className="fa fa-angle-down pull-right"></i>
                             </a>
-                            <ul class="dropdown-menu category-change">
+                            <ul className="dropdown-menu category-change">
                               <li>
                                 <a href="#">Entry Level</a>
                               </li>
@@ -266,94 +266,94 @@ function JobPost() {
                           </div>
                         </div>
                       </div>
-                      <div class="row form-group brand-name">
-                        <label class="col-sm-3 label-title">
-                          Job Function<span class="required">*</span>
+                      <div className="row form-group brand-name">
+                        <label className="col-sm-3 label-title">
+                          Job Function<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
+                        <div className="col-sm-9">
                           <input
                             type="text"
-                            class="form-control"
+                            className="form-control"
                             placeholder="human, reosurce, job, hrm"
                           />
                         </div>
                       </div>
                     </div>
-                    <div class="section company-information">
+                    <div className="section company-information">
                       <h4>Company Information</h4>
-                      <div class="row form-group">
-                        <label class="col-sm-3 label-title">
-                          Industry<span class="required">*</span>
+                      <div className="row form-group">
+                        <label className="col-sm-3 label-title">
+                          Industry<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
+                        <div className="col-sm-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Marketing and Advertising"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-sm-3 label-title">
-                          Company Name<span class="required">*</span>
+                      <div className="row form-group">
+                        <label className="col-sm-3 label-title">
+                          Company Name<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
+                        <div className="col-sm-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="ex, Jhon Doe"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-sm-3 label-title">Email ID</label>
-                        <div class="col-sm-9">
+                      <div className="row form-group">
+                        <label className="col-sm-3 label-title">Email ID</label>
+                        <div className="col-sm-9">
                           <input
                             type="email"
                             name="email"
-                            class="form-control"
+                            className="form-control"
                             placeholder="ex, jhondoe@mail.com"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-sm-3 label-title">
-                          Mobile Number<span class="required">*</span>
+                      <div className="row form-group">
+                        <label className="col-sm-3 label-title">
+                          Mobile Number<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
+                        <div className="col-sm-9">
                           <input
                             type="text"
                             name="mobileNumber"
-                            class="form-control"
+                            className="form-control"
                             placeholder="ex, +912457895"
                           />
                         </div>
                       </div>
-                      <div class="row form-group address">
-                        <label class="col-sm-3 label-title">
-                          Address<span class="required">*</span>
+                      <div className="row form-group address">
+                        <label className="col-sm-3 label-title">
+                          Address<span className="required">*</span>
                         </label>
-                        <div class="col-sm-9">
+                        <div className="col-sm-9">
                           <input
                             type="text"
                             name="address"
-                            class="form-control"
+                            className="form-control"
                             placeholder="ex, alekdera House, coprotec, usa"
                           />
                         </div>
                       </div>
                     </div>
-                    <div class="section">
+                    <div className="section">
                       <h4>Make Your Post Premium</h4>
                       <p>
                         More replies means more interested buyers. With lots of
                         interested buyers, you have a better chance of selling
                         for the price that you want.<a href="#">Learn more</a>
                       </p>
-                      <ul class="premium-options">
-                        <li class="premium">
+                      <ul className="premium-options">
+                        <li className="premium">
                           <input
                             type="radio"
                             name="premiumOption"
@@ -363,7 +363,7 @@ function JobPost() {
                           <label for="day-one">Regular Post</label>
                           <span>$20.00</span>
                         </li>
-                        <li class="premium">
+                        <li className="premium">
                           <input
                             type="radio"
                             name="premiumOption"
@@ -373,7 +373,7 @@ function JobPost() {
                           <label for="day-two">Regular Post</label>
                           <span>$30.00</span>
                         </li>
-                        <li class="premium">
+                        <li className="premium">
                           <input
                             type="radio"
                             name="premiumOption"
@@ -383,7 +383,7 @@ function JobPost() {
                           <label for="day-three">Top Post for 7 days</label>
                           <span>$50.00</span>
                         </li>
-                        <li class="premium">
+                        <li className="premium">
                           <input
                             type="radio"
                             name="premiumOption"
@@ -395,7 +395,7 @@ function JobPost() {
                         </li>
                       </ul>
                     </div>
-                    <div class="checkbox section agreement">
+                    <div className="checkbox section agreement">
                       <label for="send">
                         <input type="checkbox" name="send" id="send" />
                         You agree to our <a href="#">Terms of Use</a> and{" "}
@@ -403,7 +403,7 @@ function JobPost() {
                         are the rightful owner of this item and using Jobs to
                         find a genuine buyer.
                       </label>
-                      <button type="submit" class="btn btn-primary">
+                      <button type="submit" className="btn btn-primary">
                         Post Your Job
                       </button>
                     </div>
@@ -411,10 +411,10 @@ function JobPost() {
                 </form>
               </div>
 
-              <div class="col-lg-4">
-                <div class="section quick-rules">
+              <div className="col-lg-4">
+                <div className="section quick-rules">
                   <h4>Quick rules</h4>
-                  <p class="lead">
+                  <p className="lead">
                     Posting an ad on <a href="#">jobs.com</a> is free! However,
                     all ads must follow our rules:
                   </p>

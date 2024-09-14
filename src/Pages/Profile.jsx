@@ -5,27 +5,27 @@ function Profile() {
   return (
     <div>
       <Header page="profile" />
-      <section class=" job-bg page  ad-profile-page">
-        <div class="container">
-          <div class="breadcrumb-section">
-            <ol class="breadcrumb">
+      <section className=" job-bg page  ad-profile-page">
+        <div className="container">
+          <div className="breadcrumb-section">
+            <ol className="breadcrumb">
               <li>
                 <a href="index.html">Home</a>
               </li>
               <li>Employee Profile</li>
             </ol>
-            <h2 class="title">My Profile</h2>
+            <h2 className="title">My Profile</h2>
           </div>
-          <div class="job-profile section">
-            <div class="user-profile">
-              <div class="user-images">
+          <div className="job-profile section">
+            <div className="user-profile">
+              <div className="user-images">
                 <img
                   src="images/user.jpg"
                   alt="User Images"
-                  class="img-fluid"
+                  className="img-fluid"
                 />
               </div>
-              <div class="user">
+              <div className="user">
                 <h2>
                   Hello, <a href="#">Jhon Doe</a>
                 </h2>
@@ -34,21 +34,21 @@ function Profile() {
                   6:00hrs)]
                 </h5>
               </div>
-              <div class="favorites-user">
-                <div class="my-ads">
+              <div className="favorites-user">
+                <div className="my-ads">
                   <a href="applied-job.html">
                     29<small>Apply Job</small>
                   </a>
                 </div>
-                <div class="favorites">
+                <div className="favorites">
                   <a href="bookmark.html">
                     18<small>Favorites</small>
                   </a>
                 </div>
               </div>
             </div>
-            <ul class="user-menu">
-              <li class="active">
+            <ul className="user-menu">
+              <li className="active">
                 <a href="profile.html">Account Info </a>
               </li>
               <li>
@@ -71,16 +71,16 @@ function Profile() {
               </li>
             </ul>
           </div>
-          <div class="resume-content">
-            <div class="profile section clearfix">
-              <div class="profile-logo">
+          <div className="resume-content">
+            <div className="profile section clearfix">
+              <div className="profile-logo">
                 <img
-                  class="img-fluid"
+                  className="img-fluid"
                   src="images/job/resume.jpg"
                   alt="Image"
                 />
               </div>
-              <div class="profile-info">
+              <div className="profile-info">
                 <h1>Jhon Doe</h1>
                 <address>
                   <p>
@@ -88,7 +88,7 @@ function Profile() {
                     <br /> Phone: +012 345 678 910 <br /> Email:
                     <a href="#">
                       <span
-                        class="__cf_email__"
+                        className="__cf_email__"
                         // data-cfemail="3a534e49575f7a494f484053565f5d5f5f5114595557"
                       >
                         [email&#160;protected]
@@ -98,11 +98,11 @@ function Profile() {
                 </address>
               </div>
             </div>
-            <div class="career-objective section">
-              <div class="icons">
-                <i class="fa fa-black-tie" aria-hidden="true"></i>
+            <div className="career-objective section">
+              <div className="icons">
+                <i className="fa fa-black-tie" aria-hidden="true"></i>
               </div>
-              <div class="career-info">
+              <div className="career-info">
                 <h3>Career Objective</h3>
                 <p>
                   <span>
@@ -126,11 +126,11 @@ function Profile() {
                 </p>
               </div>
             </div>
-            <div class="work-history section">
-              <div class="icons">
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
+            <div className="work-history section">
+              <div className="icons">
+                <i className="fa fa-briefcase" aria-hidden="true"></i>
               </div>
-              <div class="work-info">
+              <div className="work-info">
                 <h3>Work History</h3>
                 <ul>
                   <li>
@@ -190,11 +190,11 @@ function Profile() {
                 </ul>
               </div>
             </div>
-            <div class="educational-background section">
-              <div class="icons">
-                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <div className="educational-background section">
+              <div className="icons">
+                <i className="fa fa-graduation-cap" aria-hidden="true"></i>
               </div>
-              <div class="educational-info">
+              <div className="educational-info">
                 <h3>Education Background</h3>
                 <ul>
                   <li>
@@ -270,11 +270,11 @@ function Profile() {
                 </ul>
               </div>
             </div>
-            <div class="special-qualification: section">
-              <div class="icons">
-                <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+            <div className="special-qualification: section">
+              <div className="icons">
+                <i className="fa fa-thumbs-o-up" aria-hidden="true"></i>
               </div>
-              <div class="qualification">
+              <div className="qualification">
                 <h3>Special Qualification:</h3>
                 <ul>
                   <li>
@@ -294,103 +294,103 @@ function Profile() {
                 </ul>
               </div>
             </div>
-            <div class="language-proficiency section">
-              <div class="icons">
-                <i class="fa fa-language" aria-hidden="true"></i>
+            <div className="language-proficiency section">
+              <div className="icons">
+                <i className="fa fa-language" aria-hidden="true"></i>
               </div>
-              <div class="proficiency">
+              <div className="proficiency">
                 <h3>Language Proficiency</h3>
-                <ul class="list-inline">
-                  <li class="list-inline-item">
+                <ul className="list-inline">
+                  <li className="list-inline-item">
                     <h5>English</h5>
                     <ul>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i className="fa fa-star-o" aria-hidden="true"></i>
                       </li>
                     </ul>
                   </li>
-                  <li class="list-inline-item">
+                  <li className="list-inline-item">
                     <h5>German</h5>
                     <ul>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i className="fa fa-star-o" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i className="fa fa-star-o" aria-hidden="true"></i>
                       </li>
                     </ul>
                   </li>
-                  <li class="list-inline-item">
+                  <li className="list-inline-item">
                     <h5>Spanish</h5>
                     <ul>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                     </ul>
                   </li>
-                  <li class="list-inline-item">
+                  <li className="list-inline-item">
                     <h5>Latin</h5>
                     <ul>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i className="fa fa-star" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i className="fa fa-star-o" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i className="fa fa-star-o" aria-hidden="true"></i>
                       </li>
                       <li>
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i className="fa fa-star-o" aria-hidden="true"></i>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="personal-deatils section">
-              <div class="icons">
-                <i class="fa fa-user-secret" aria-hidden="true"></i>
+            <div className="personal-deatils section">
+              <div className="icons">
+                <i className="fa fa-user-secret" aria-hidden="true"></i>
               </div>
-              <div class="personal-info">
+              <div className="personal-info">
                 <h3>Personal Deatils</h3>
-                <ul class="address">
+                <ul className="address">
                   <li>
                     <h5>Full Name </h5> <span>:</span>Jhon Doe
                   </li>
@@ -419,11 +419,11 @@ function Profile() {
                 </ul>
               </div>
             </div>
-            <div class="declaration section">
-              <div class="icons">
-                <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
+            <div className="declaration section">
+              <div className="icons">
+                <i className="fa fa-hand-peace-o" aria-hidden="true"></i>
               </div>
-              <div class="declaration-info">
+              <div className="declaration-info">
                 <h3>Declaration</h3>
                 <p>
                   <span>
@@ -448,16 +448,16 @@ function Profile() {
                 </p>
               </div>
             </div>
-            <div class="buttons">
-              <a href="#" class="btn">
+            <div className="buttons">
+              <a href="#" className="btn">
                 Update Profile
               </a>
-              <a href="#" class="btn cancle">
+              <a href="#" className="btn cancle">
                 Cancle
               </a>
             </div>
-            <div class="download-button resume">
-              <a href="#" class="btn">
+            <div className="download-button resume">
+              <a href="#" className="btn">
                 Download Resume as doc
               </a>
             </div>

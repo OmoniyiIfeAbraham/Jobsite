@@ -15,6 +15,11 @@ import PostResume from "./Pages/PostResume";
 import JobPost from "./Pages/JobPost";
 import EditResume from "./Pages/EditResume";
 import ProfileDetails from "./Pages/ProfileDetails";
+import BookMark from "./Pages/BookMark";
+import AppliedJob from "./Pages/AppliedJob";
+import DeleteAccount from "./Pages/DeleteAccount";
+import Signup from "./Pages/Signup";
+import Signin from "./Pages/Signin";
 
 function App() {
   return (
@@ -30,6 +35,11 @@ function App() {
           <Route path="/job-post" element={<JobPost />} />
           <Route path="/edit-resume" element={<EditResume />} />
           <Route path="/profile-details" element={<ProfileDetails />} />
+          <Route path="/bookmark" element={<BookMark />} />
+          <Route path="/applied-job" element={<AppliedJob />} />
+          <Route path="/delete-account" element={<DeleteAccount />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/signin" element={<Signin />} />
         </Routes>
       </Router>
     </div>

@@ -1,29 +1,32 @@
 import React from "react";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 function BookMark() {
   return (
     <div>
-      <section class=" job-bg page  ad-profile-page">
-        <div class="container">
-          <div class="breadcrumb-section">
-            <ol class="breadcrumb">
+      <Header page={"bookmark"} />
+      <section className=" job-bg page  ad-profile-page">
+        <div className="container">
+          <div className="breadcrumb-section">
+            <ol className="breadcrumb">
               <li>
                 <a href="index.html">Home</a>
               </li>
               <li>Bookmark</li>
             </ol>
-            <h2 class="title">Bookmark</h2>
+            <h2 className="title">Bookmark</h2>
           </div>
-          <div class="job-profile section">
-            <div class="user-profile">
-              <div class="user-images">
+          <div className="job-profile section">
+            <div className="user-profile">
+              <div className="user-images">
                 <img
                   src="images/user.jpg"
                   alt="User Images"
-                  class="img-fluid"
+                  className="img-fluid"
                 />
               </div>
-              <div class="user">
+              <div className="user">
                 <h2>
                   Hello, <a href="#">Jhon Doe</a>
                 </h2>
@@ -32,20 +35,20 @@ function BookMark() {
                   6:00hrs)]
                 </h5>
               </div>
-              <div class="favorites-user">
-                <div class="my-ads">
+              <div className="favorites-user">
+                <div className="my-ads">
                   <a href="applied-job.html">
                     29<small>Apply Job</small>
                   </a>
                 </div>
-                <div class="favorites">
+                <div className="favorites">
                   <a href="bookmark.html">
                     18<small>Favorites</small>
                   </a>
                 </div>
               </div>
             </div>
-            <ul class="user-menu">
+            <ul className="user-menu">
               <li>
                 <a href="profile.html">Account Info </a>
               </li>
@@ -58,7 +61,7 @@ function BookMark() {
               <li>
                 <a href="profile-details.html">Profile Details</a>
               </li>
-              <li class="active">
+              <li className="active">
                 <a href="bookmark.html">Bookmark</a>
               </li>
               <li>
@@ -69,443 +72,444 @@ function BookMark() {
               </li>
             </ul>
           </div>
-          <div class="section trending-ads latest-jobs-ads">
+          <div className="section trending-ads latest-jobs-ads">
             <h4>Bookmark</h4>
-            <div class="job-ad-item">
-              <div class="item-info">
-                <div class="item-image-box">
-                  <div class="item-image">
+            <div className="job-ad-item">
+              <div className="item-info">
+                <div className="item-image-box">
+                  <div className="item-image">
                     <a href="job-details.html">
                       <img
                         src="images/job/3.png"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </div>
                 </div>
-                <div class="ad-info">
+                <div className="ad-info">
                   <span>
-                    <a href="job-details.html" class="title">
+                    <a href="job-details.html" className="title">
                       CTO
                     </a>{" "}
                     @ <a href="#">Volja Events &amp; Entertainment</a>
                   </span>
-                  <div class="ad-meta">
+                  <div className="ad-meta">
                     <ul>
                       <li>
                         <a href="#">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>San
+                          <i className="fa fa-map-marker" aria-hidden="true"></i>San
                           Francisco, CA, US{" "}
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-clock-o" aria-hidden="true"></i>Full
+                          <i className="fa fa-clock-o" aria-hidden="true"></i>Full
                           Time
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-money" aria-hidden="true"></i>$25,000
+                          <i className="fa fa-money" aria-hidden="true"></i>$25,000
                           - $35,000
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-tags" aria-hidden="true"></i>HR/Org.
+                          <i className="fa fa-tags" aria-hidden="true"></i>HR/Org.
                           Development
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="close-icon">
-                  <i class="fa fa-window-close" aria-hidden="true"></i>
+                <div className="close-icon">
+                  <i className="fa fa-window-close" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
-            <div class="job-ad-item">
-              <div class="item-info">
-                <div class="item-image-box">
-                  <div class="item-image">
+            <div className="job-ad-item">
+              <div className="item-info">
+                <div className="item-image-box">
+                  <div className="item-image">
                     <a href="job-details.html">
                       <img
                         src="images/job/1.png"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </div>
                 </div>
-                <div class="ad-info">
+                <div className="ad-info">
                   <span>
-                    <a href="job-details.html" class="title">
+                    <a href="job-details.html" className="title">
                       Project Manager
                     </a>{" "}
                     @ <a href="#">Dominos Pizza</a>
                   </span>
-                  <div class="ad-meta">
+                  <div className="ad-meta">
                     <ul>
                       <li>
                         <a href="#">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>San
+                          <i className="fa fa-map-marker" aria-hidden="true"></i>San
                           Francisco, CA, US{" "}
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-clock-o" aria-hidden="true"></i>Full
+                          <i className="fa fa-clock-o" aria-hidden="true"></i>Full
                           Time
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-money" aria-hidden="true"></i>$25,000
+                          <i className="fa fa-money" aria-hidden="true"></i>$25,000
                           - $35,000
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-tags" aria-hidden="true"></i>HR/Org.
+                          <i className="fa fa-tags" aria-hidden="true"></i>HR/Org.
                           Development
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="close-icon">
-                  <i class="fa fa-window-close" aria-hidden="true"></i>
+                <div className="close-icon">
+                  <i className="fa fa-window-close" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
-            <div class="job-ad-item">
-              <div class="item-info">
-                <div class="item-image-box">
-                  <div class="item-image">
+            <div className="job-ad-item">
+              <div className="item-info">
+                <div className="item-image-box">
+                  <div className="item-image">
                     <a href="job-details.html">
                       <img
                         src="images/job/2.png"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </div>
                 </div>
-                <div class="ad-info">
+                <div className="ad-info">
                   <span>
-                    <a href="job-details.html" class="title">
+                    <a href="job-details.html" className="title">
                       Graphics Designer
                     </a>{" "}
                     @ <a href="#">AOK Security</a>
                   </span>
-                  <div class="ad-meta">
+                  <div className="ad-meta">
                     <ul>
                       <li>
                         <a href="#">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>San
+                          <i className="fa fa-map-marker" aria-hidden="true"></i>San
                           Francisco, CA, US{" "}
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-clock-o" aria-hidden="true"></i>Full
+                          <i className="fa fa-clock-o" aria-hidden="true"></i>Full
                           Time
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-money" aria-hidden="true"></i>$25,000
+                          <i className="fa fa-money" aria-hidden="true"></i>$25,000
                           - $35,000
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-tags" aria-hidden="true"></i>HR/Org.
+                          <i className="fa fa-tags" aria-hidden="true"></i>HR/Org.
                           Development
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="close-icon">
-                  <i class="fa fa-window-close" aria-hidden="true"></i>
+                <div className="close-icon">
+                  <i className="fa fa-window-close" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
-            <div class="job-ad-item">
-              <div class="item-info">
-                <div class="item-image-box">
-                  <div class="item-image">
+            <div className="job-ad-item">
+              <div className="item-info">
+                <div className="item-image-box">
+                  <div className="item-image">
                     <a href="job-details.html">
                       <img
                         src="images/job/4.png"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </div>
                 </div>
-                <div class="ad-info">
+                <div className="ad-info">
                   <span>
-                    <a href="job-details.html" class="title">
+                    <a href="job-details.html" className="title">
                       Human Resource Manager
                     </a>{" "}
                     @ <a href="#">Dropbox Inc</a>
                   </span>
-                  <div class="ad-meta">
+                  <div className="ad-meta">
                     <ul>
                       <li>
                         <a href="#">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>San
+                          <i className="fa fa-map-marker" aria-hidden="true"></i>San
                           Francisco, CA, US{" "}
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-clock-o" aria-hidden="true"></i>Full
+                          <i className="fa fa-clock-o" aria-hidden="true"></i>Full
                           Time
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-money" aria-hidden="true"></i>$25,000
+                          <i className="fa fa-money" aria-hidden="true"></i>$25,000
                           - $35,000
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-tags" aria-hidden="true"></i>HR/Org.
+                          <i className="fa fa-tags" aria-hidden="true"></i>HR/Org.
                           Development
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="close-icon">
-                  <i class="fa fa-window-close" aria-hidden="true"></i>
+                <div className="close-icon">
+                  <i className="fa fa-window-close" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
-            <div class="job-ad-item">
-              <div class="item-info">
-                <div class="item-image-box">
-                  <div class="item-image">
+            <div className="job-ad-item">
+              <div className="item-info">
+                <div className="item-image-box">
+                  <div className="item-image">
                     <a href="job-details.html">
                       <img
                         src="images/job/3.png"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </div>
                 </div>
-                <div class="ad-info">
+                <div className="ad-info">
                   <span>
-                    <a href="job-details.html" class="title">
+                    <a href="job-details.html" className="title">
                       CTO
                     </a>{" "}
                     @ <a href="#">Volja Events &amp; Entertainment</a>
                   </span>
-                  <div class="ad-meta">
+                  <div className="ad-meta">
                     <ul>
                       <li>
                         <a href="#">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>San
+                          <i className="fa fa-map-marker" aria-hidden="true"></i>San
                           Francisco, CA, US{" "}
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-clock-o" aria-hidden="true"></i>Full
+                          <i className="fa fa-clock-o" aria-hidden="true"></i>Full
                           Time
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-money" aria-hidden="true"></i>$25,000
+                          <i className="fa fa-money" aria-hidden="true"></i>$25,000
                           - $35,000
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-tags" aria-hidden="true"></i>HR/Org.
+                          <i className="fa fa-tags" aria-hidden="true"></i>HR/Org.
                           Development
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="close-icon">
-                  <i class="fa fa-window-close" aria-hidden="true"></i>
+                <div className="close-icon">
+                  <i className="fa fa-window-close" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
-            <div class="job-ad-item">
-              <div class="item-info">
-                <div class="item-image-box">
-                  <div class="item-image">
+            <div className="job-ad-item">
+              <div className="item-info">
+                <div className="item-image-box">
+                  <div className="item-image">
                     <a href="job-details.html">
                       <img
                         src="images/job/1.png"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </div>
                 </div>
-                <div class="ad-info">
+                <div className="ad-info">
                   <span>
-                    <a href="job-details.html" class="title">
+                    <a href="job-details.html" className="title">
                       Project Manager
                     </a>{" "}
                     @ <a href="#">Dominos Pizza</a>
                   </span>
-                  <div class="ad-meta">
+                  <div className="ad-meta">
                     <ul>
                       <li>
                         <a href="#">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>San
+                          <i className="fa fa-map-marker" aria-hidden="true"></i>San
                           Francisco, CA, US{" "}
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-clock-o" aria-hidden="true"></i>Full
+                          <i className="fa fa-clock-o" aria-hidden="true"></i>Full
                           Time
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-money" aria-hidden="true"></i>$25,000
+                          <i className="fa fa-money" aria-hidden="true"></i>$25,000
                           - $35,000
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-tags" aria-hidden="true"></i>HR/Org.
+                          <i className="fa fa-tags" aria-hidden="true"></i>HR/Org.
                           Development
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="close-icon">
-                  <i class="fa fa-window-close" aria-hidden="true"></i>
+                <div className="close-icon">
+                  <i className="fa fa-window-close" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
-            <div class="job-ad-item">
-              <div class="item-info">
-                <div class="item-image-box">
-                  <div class="item-image">
+            <div className="job-ad-item">
+              <div className="item-info">
+                <div className="item-image-box">
+                  <div className="item-image">
                     <a href="job-details.html">
                       <img
                         src="images/job/2.png"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </div>
                 </div>
-                <div class="ad-info">
+                <div className="ad-info">
                   <span>
-                    <a href="job-details.html" class="title">
+                    <a href="job-details.html" className="title">
                       Graphics Designer
                     </a>{" "}
                     @ <a href="#">AOK Security</a>
                   </span>
-                  <div class="ad-meta">
+                  <div className="ad-meta">
                     <ul>
                       <li>
                         <a href="#">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>San
+                          <i className="fa fa-map-marker" aria-hidden="true"></i>San
                           Francisco, CA, US{" "}
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-clock-o" aria-hidden="true"></i>Full
+                          <i className="fa fa-clock-o" aria-hidden="true"></i>Full
                           Time
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-money" aria-hidden="true"></i>$25,000
+                          <i className="fa fa-money" aria-hidden="true"></i>$25,000
                           - $35,000
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-tags" aria-hidden="true"></i>HR/Org.
+                          <i className="fa fa-tags" aria-hidden="true"></i>HR/Org.
                           Development
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="close-icon">
-                  <i class="fa fa-window-close" aria-hidden="true"></i>
+                <div className="close-icon">
+                  <i className="fa fa-window-close" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
-            <div class="job-ad-item">
-              <div class="item-info">
-                <div class="item-image-box">
-                  <div class="item-image">
+            <div className="job-ad-item">
+              <div className="item-info">
+                <div className="item-image-box">
+                  <div className="item-image">
                     <a href="job-details.html">
                       <img
                         src="images/job/4.png"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </div>
                 </div>
-                <div class="ad-info">
+                <div className="ad-info">
                   <span>
-                    <a href="job-details.html" class="title">
+                    <a href="job-details.html" className="title">
                       Human Resource Manager
                     </a>{" "}
                     @ <a href="#">Dropbox Inc</a>
                   </span>
-                  <div class="ad-meta">
+                  <div className="ad-meta">
                     <ul>
                       <li>
                         <a href="#">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>San
+                          <i className="fa fa-map-marker" aria-hidden="true"></i>San
                           Francisco, CA, US{" "}
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-clock-o" aria-hidden="true"></i>Full
+                          <i className="fa fa-clock-o" aria-hidden="true"></i>Full
                           Time
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-money" aria-hidden="true"></i>$25,000
+                          <i className="fa fa-money" aria-hidden="true"></i>$25,000
                           - $35,000
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-tags" aria-hidden="true"></i>HR/Org.
+                          <i className="fa fa-tags" aria-hidden="true"></i>HR/Org.
                           Development
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div class="close-icon">
-                  <i class="fa fa-window-close" aria-hidden="true"></i>
+                <div className="close-icon">
+                  <i className="fa fa-window-close" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

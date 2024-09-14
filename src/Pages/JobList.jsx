@@ -5,25 +5,25 @@ function JobList() {
   return (
     <div>
       <Header page="JobList" />
-      <section class="job-bg page job-list-page">
-        <div class="container">
-          <div class="breadcrumb-section">
-            <ol class="breadcrumb">
+      <section className="job-bg page job-list-page">
+        <div className="container">
+          <div className="breadcrumb-section">
+            <ol className="breadcrumb">
               <li>
                 <a href="index.html">Home</a>
               </li>
               <li>Engineer/Architects</li>
             </ol>
-            <h2 class="title">Software Engineer</h2>
+            <h2 className="title">Software Engineer</h2>
           </div>
-          <div class="banner-form banner-form-full job-list-form">
-            <form action="#" class="clearfix">
-              <div class="dropdown category-dropdown">
+          <div className="banner-form banner-form-full job-list-form">
+            <form action="#" className="clearfix">
+              <div className="dropdown category-dropdown">
                 <a data-toggle="dropdown" href="#">
-                  <span class="change-text">Job Category</span>{" "}
-                  <i class="fa fa-angle-down"></i>
+                  <span className="change-text">Job Category</span>{" "}
+                  <i className="fa fa-angle-down"></i>
                 </a>
-                <ul class="dropdown-menu category-change">
+                <ul className="dropdown-menu category-change">
                   <li>
                     <a href="#">Customer Service</a>
                   </li>
@@ -42,12 +42,12 @@ function JobList() {
                 </ul>
               </div>
 
-              <div class="dropdown category-dropdown language-dropdown">
+              <div className="dropdown category-dropdown language-dropdown">
                 <a data-toggle="dropdown" href="#">
-                  <span class="change-text">Job Location</span>{" "}
-                  <i class="fa fa-angle-down"></i>
+                  <span className="change-text">Job Location</span>{" "}
+                  <i className="fa fa-angle-down"></i>
                 </a>
-                <ul class="dropdown-menu category-change language-change">
+                <ul className="dropdown-menu category-change language-change">
                   <li>
                     <a href="#">Location 1</a>
                   </li>
@@ -61,21 +61,21 @@ function JobList() {
               </div>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 placeholder="Type your key word"
               />
-              <button type="submit" class="btn btn-primary" value="Search">
+              <button type="submit" className="btn btn-primary" value="Search">
                 Search
               </button>
             </form>
           </div>
-          <div class="category-info">
-            <div class="row">
-              <div class="col-lg-3 col-md-4">
-                <div class="accordion">
-                  <div class="panel-group" id="tr-accordion">
-                    <div class="card panel-faq">
-                      <div class="card-header">
+          <div className="category-info">
+            <div className="row">
+              <div className="col-lg-3 col-md-4">
+                <div className="accordion">
+                  <div className="panel-group" id="tr-accordion">
+                    <div className="card panel-faq">
+                      <div className="card-header">
                         <button
                           data-toggle="collapse"
                           data-target="#accordion-one"
@@ -87,17 +87,17 @@ function JobList() {
                       </div>
                       <div
                         id="accordion-one"
-                        class="collapse show"
+                        className="collapse show"
                         data-parent="#tr-accordion"
                       >
-                        <div class="panel-body">
+                        <div className="panel-body">
                           <h5>
                             <a href="categories-main.html">
-                              <i class="fa fa-caret-down"></i> All Categories
+                              <i className="fa fa-caret-down"></i> All Categories
                             </a>
                           </h5>
                           <a href="#">
-                            <i class="icofont icofont-man-in-glasses"></i>
+                            <i className="icofont icofont-man-in-glasses"></i>
                             Engineer/Architects
                           </a>
                           <ul>
@@ -147,15 +147,15 @@ function JobList() {
                               </a>
                             </li>
                           </ul>
-                          <div class="see-more">
-                            <button type="button" class="show-more one">
+                          <div className="see-more">
+                            <button type="button" className="show-more one">
                               <i
-                                class="fa fa-plus-square-o"
+                                className="fa fa-plus-square-o"
                                 aria-hidden="true"
                               ></i>
                               See More
                             </button>
-                            <ul class="more-category one">
+                            <ul className="more-category one">
                               <li>
                                 <a href="#">
                                   Fron end developer<span>(289)</span>
@@ -181,10 +181,10 @@ function JobList() {
                         </div>
                       </div>
                     </div>
-                    <div class="card panel-faq">
-                      <div class="card-header">
+                    <div className="card panel-faq">
+                      <div className="card-header">
                         <button
-                          class="collapsed"
+                          className="collapsed"
                           data-toggle="collapse"
                           data-target="#accordion-two"
                           aria-expanded="true"
@@ -195,10 +195,10 @@ function JobList() {
                       </div>
                       <div
                         id="accordion-two"
-                        class="collapse"
+                        className="collapse"
                         data-parent="#tr-accordion"
                       >
-                        <div class="panel-body">
+                        <div className="panel-body">
                           <label for="today">Today</label>
                           <input type="checkbox" name="today" id="today" />{" "}
                           <label for="7-days">7 days</label>
@@ -216,10 +216,10 @@ function JobList() {
                         </div>
                       </div>
                     </div>
-                    <div class="card  panel-faq">
-                      <div class="card-header">
+                    <div className="card  panel-faq">
+                      <div className="card-header">
                         <button
-                          class="collapsed"
+                          className="collapsed"
                           data-toggle="collapse"
                           data-target="#accordion-three"
                           aria-expanded="true"
@@ -230,21 +230,21 @@ function JobList() {
                       </div>
                       <div
                         id="accordion-three"
-                        class="collapse"
+                        className="collapse"
                         data-parent="#tr-accordion"
                       >
-                        <div class="panel-body">
-                          <div class="price-range">
-                            <div class="price">
+                        <div className="panel-body">
+                          <div className="price-range">
+                            <div className="price">
                               <span>
                                 $100 - <strong>$700</strong>
                               </span>
-                              <div class="dropdown category-dropdown pull-right">
+                              <div className="dropdown category-dropdown pull-right">
                                 <a data-toggle="dropdown" href="#">
-                                  <span class="change-text">USD</span>
-                                  <i class="fa fa-caret-square-o-down"></i>
+                                  <span className="change-text">USD</span>
+                                  <i className="fa fa-caret-square-o-down"></i>
                                 </a>
-                                <ul class="dropdown-menu category-change">
+                                <ul className="dropdown-menu category-change">
                                   <li>
                                     <a href="#">USD</a>
                                   </li>
@@ -277,10 +277,10 @@ function JobList() {
                         </div>
                       </div>
                     </div>
-                    <div class="card panel-faq">
-                      <div class="card-header">
+                    <div className="card panel-faq">
+                      <div className="card-header">
                         <button
-                          class="collapsed"
+                          className="collapsed"
                           data-toggle="collapse"
                           data-target="#accordion-four"
                           aria-expanded="true"
@@ -291,10 +291,10 @@ function JobList() {
                       </div>
                       <div
                         id="accordion-four"
-                        class="collapse"
+                        className="collapse"
                         data-parent="#tr-accordion"
                       >
-                        <div class="panel-body">
+                        <div className="panel-body">
                           <label for="full-time">Full Time</label>
                           <input
                             type="checkbox"
@@ -328,10 +328,10 @@ function JobList() {
                         </div>
                       </div>
                     </div>
-                    <div class="card panel-faq">
-                      <div class="card-header">
+                    <div className="card panel-faq">
+                      <div className="card-header">
                         <button
-                          class="collapsed"
+                          className="collapsed"
                           data-toggle="collapse"
                           data-target="#accordion-five"
                           aria-expanded="true"
@@ -342,10 +342,10 @@ function JobList() {
                       </div>
                       <div
                         id="accordion-five"
-                        class="collapse"
+                        className="collapse"
                         data-parent="#tr-accordion"
                       >
-                        <div class="panel-body">
+                        <div className="panel-body">
                           <label for="training">Training</label>
                           <input
                             type="checkbox"
@@ -373,10 +373,10 @@ function JobList() {
                         </div>
                       </div>
                     </div>
-                    <div class="card panel-faq">
-                      <div class="card-header">
+                    <div className="card panel-faq">
+                      <div className="card-header">
                         <button
-                          class="collapsed"
+                          className="collapsed"
                           data-toggle="collapse"
                           data-target="#accordion-six"
                           aria-expanded="true"
@@ -387,14 +387,14 @@ function JobList() {
                       </div>
                       <div
                         id="accordion-six"
-                        class="collapse"
+                        className="collapse"
                         data-parent="#tr-accordion"
                       >
-                        <div class="panel-body">
+                        <div className="panel-body">
                           <input
                             type="text"
                             placeholder="Search Company"
-                            class="form-control"
+                            className="form-control"
                           />
                           <label for="apple">Apple</label>
                           <input type="checkbox" name="apple" id="apple" />{" "}
@@ -424,15 +424,15 @@ function JobList() {
                             name="samsung"
                             id="samsung"
                           />{" "}
-                          <div class="see-more">
-                            <button type="button" class="show-more two">
+                          <div className="see-more">
+                            <button type="button" className="show-more two">
                               <i
-                                class="fa fa-plus-square-o"
+                                className="fa fa-plus-square-o"
                                 aria-hidden="true"
                               ></i>
                               See More
                             </button>
-                            <div class="more-category two">
+                            <div className="more-category two">
                               <label for="blackBerry">BlackBerry</label>
                               <input
                                 type="checkbox"
@@ -456,10 +456,10 @@ function JobList() {
                         </div>
                       </div>
                     </div>
-                    <div class="card panel-faq">
-                      <div class="card-header">
+                    <div className="card panel-faq">
+                      <div className="card-header">
                         <button
-                          class="collapsed"
+                          className="collapsed"
                           data-toggle="collapse"
                           data-target="#accordion-seven"
                           aria-expanded="true"
@@ -470,14 +470,14 @@ function JobList() {
                       </div>
                       <div
                         id="accordion-seven"
-                        class="collapse"
+                        className="collapse"
                         data-parent="#tr-accordion"
                       >
-                        <div class="panel-body">
+                        <div className="panel-body">
                           <input
                             type="text"
                             placeholder="Search Location"
-                            class="form-control"
+                            className="form-control"
                           />
                           <label for="angeles">Los Angeles, CA</label>
                           <input
@@ -515,15 +515,15 @@ function JobList() {
                             name="germany"
                             id="germany"
                           />{" "}
-                          <div class="see-more">
-                            <button type="button" class="show-more three">
+                          <div className="see-more">
+                            <button type="button" className="show-more three">
                               <i
-                                class="fa fa-plus-square-o"
+                                className="fa fa-plus-square-o"
                                 aria-hidden="true"
                               ></i>
                               See More
                             </button>
-                            <div class="more-category three">
+                            <div className="more-category three">
                               <label for="belgium">Belgium</label>
                               <input
                                 type="checkbox"
@@ -557,18 +557,18 @@ function JobList() {
                 </div>
               </div>
 
-              <div class="col-md-8 col-lg-7">
-                <div class="section job-list-item">
-                  <div class="featured-top clearfix">
+              <div className="col-md-8 col-lg-7">
+                <div className="section job-list-item">
+                  <div className="featured-top clearfix">
                     <h4>Showing 1-25 of 65,712 ads</h4>
-                    <div class="dropdown pull-right">
-                      <div class="dropdown category-dropdown">
+                    <div className="dropdown pull-right">
+                      <div className="dropdown category-dropdown">
                         <h5>Sort by:</h5>
                         <a data-toggle="dropdown" href="#">
-                          <span class="change-text">Most Relevant</span>
-                          <i class="fa fa-caret-square-o-down"></i>
+                          <span className="change-text">Most Relevant</span>
+                          <i className="fa fa-caret-square-o-down"></i>
                         </a>
-                        <ul class="dropdown-menu category-change">
+                        <ul className="dropdown-menu category-change">
                           <li>
                             <a href="#">Most Relevant</a>
                           </li>
@@ -579,32 +579,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/1.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Project Manager
                           </a>{" "}
                           @ <a href="#">Dominos Pizza</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -612,13 +612,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -627,32 +627,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/2.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Graphics Designer
                           </a>{" "}
                           @ <a href="#">AOK Security</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -660,13 +660,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -675,32 +675,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/4.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             CTO
                           </a>{" "}
                           @ <a href="#">Volja Events & Entertainment</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -708,13 +708,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -723,32 +723,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/7.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Industrial Manager
                           </a>{" "}
                           @ <a href="#">Total Gas</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -756,13 +756,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -771,32 +771,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/8.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Software Engineer
                           </a>{" "}
                           @ <a href="#">Dell</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -804,13 +804,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -819,32 +819,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/9.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Human Resource Manager
                           </a>{" "}
                           @ <a href="#">Acrobat</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -852,13 +852,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -867,32 +867,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/10.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Program Development
                           </a>{" "}
                           @ <a href="#">Adidus</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -900,13 +900,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -915,41 +915,41 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="ad-section text-center">
+                  <div className="ad-section text-center">
                     <a href="#">
                       <img
                         src="images/ads/3.jpg"
                         alt="Image"
-                        class="img-fluid"
+                        className="img-fluid"
                       />
                     </a>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/11.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             CTO
                           </a>{" "}
                           @ <a href="#">IBM</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -957,13 +957,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -972,32 +972,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/12.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Human Resource Manager
                           </a>{" "}
                           @ <a href="#">BP</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -1005,13 +1005,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -1020,32 +1020,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/13.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Industrial Manager
                           </a>{" "}
                           @ <a href="#">SaraLee</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -1053,13 +1053,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -1068,32 +1068,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/14.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Software Engineer
                           </a>{" "}
                           @ <a href="#">Daman</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -1101,13 +1101,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -1116,32 +1116,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/15.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Program Development
                           </a>{" "}
                           @ <a href="#">Helix</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -1149,13 +1149,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -1164,32 +1164,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/16.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             CTO
                           </a>{" "}
                           @ <a href="#">Dutrigo</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -1197,13 +1197,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -1212,32 +1212,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/17.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Software Engineer
                           </a>{" "}
                           @ <a href="#">Costa Rica</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -1245,13 +1245,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -1260,32 +1260,32 @@ function JobList() {
                       </div>
                     </div>
                   </div>
-                  <div class="job-ad-item">
-                    <div class="item-info">
-                      <div class="item-image-box">
-                        <div class="item-image">
+                  <div className="job-ad-item">
+                    <div className="item-info">
+                      <div className="item-image-box">
+                        <div className="item-image">
                           <a href="job-details.html">
                             <img
                               src="images/job/18.png"
                               alt="Image"
-                              class="img-fluid"
+                              className="img-fluid"
                             />
                           </a>
                         </div>
                       </div>
-                      <div class="ad-info">
+                      <div className="ad-info">
                         <span>
-                          <a href="job-details.html" class="title">
+                          <a href="job-details.html" className="title">
                             Program Development
                           </a>{" "}
                           @ <a href="#">HSBC</a>
                         </span>
-                        <div class="ad-meta">
+                        <div className="ad-meta">
                           <ul>
                             <li>
                               <a href="#">
                                 <i
-                                  class="fa fa-map-marker"
+                                  className="fa fa-map-marker"
                                   aria-hidden="true"
                                 ></i>
                                 San Francisco, CA, US{" "}
@@ -1293,13 +1293,13 @@ function JobList() {
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                <i className="fa fa-clock-o" aria-hidden="true"></i>
                                 Full Time
                               </a>
                             </li>
                             <li>
                               <a href="#">
-                                <i class="fa fa-money" aria-hidden="true"></i>
+                                <i className="fa fa-money" aria-hidden="true"></i>
                                 $25,000 - $35,000
                               </a>
                             </li>
@@ -1309,17 +1309,17 @@ function JobList() {
                     </div>
                   </div>
 
-                  <div class="text-center">
-                    <ul class="pagination ">
+                  <div className="text-center">
+                    <ul className="pagination ">
                       <li>
                         <a href="#">
-                          <i class="fa fa-chevron-left"></i>
+                          <i className="fa fa-chevron-left"></i>
                         </a>
                       </li>
                       <li>
                         <a href="#">1</a>
                       </li>
-                      <li class="active">
+                      <li className="active">
                         <a href="#">2</a>
                       </li>
                       <li>
@@ -1345,17 +1345,17 @@ function JobList() {
                       </li>
                       <li>
                         <a href="#">
-                          <i class="fa fa-chevron-right"></i>
+                          <i className="fa fa-chevron-right"></i>
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div class="col-md-2 d-none d-lg-block">
-                <div class="advertisement text-center">
+              <div className="col-md-2 d-none d-lg-block">
+                <div className="advertisement text-center">
                   <a href="#">
-                    <img src="images/ads/1.jpg" alt class="img-fluid" />
+                    <img src="images/ads/1.jpg" alt className="img-fluid" />
                   </a>
                 </div>
               </div>
@@ -1363,17 +1363,17 @@ function JobList() {
           </div>
         </div>
       </section>
-      <section id="something-sell" class="clearfix parallax-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <h2 class="title">
+      <section id="something-sell" className="clearfix parallax-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12 text-center">
+              <h2 className="title">
                 Add your resume and let your next job find you.
               </h2>
               <h4>
                 Post your Resume for free on <a href="#">Jobs.com</a>
               </h4>
-              <a href="post-resume.html" class="btn btn-primary">
+              <a href="post-resume.html" className="btn btn-primary">
                 Add Your Resume
               </a>
             </div>

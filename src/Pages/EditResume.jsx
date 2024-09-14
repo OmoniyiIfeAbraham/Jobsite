@@ -6,372 +6,372 @@ function EditResume() {
   return (
     <div>
       <Header page={"editResume"} />
-      <section class=" job-bg ad-details-page">
-        <div class="container">
-          <div class="breadcrumb-section">
-            <ol class="breadcrumb">
+      <section className=" job-bg ad-details-page">
+        <div className="container">
+          <div className="breadcrumb-section">
+            <ol className="breadcrumb">
               <li>
                 <a href="index.html">Home</a>
               </li>
               <li>Edit Resume</li>
             </ol>
-            <h2 class="title">Edit Resume</h2>
+            <h2 className="title">Edit Resume</h2>
           </div>
-          <div class="adpost-details post-resume">
-            <div class="row">
-              <div class="col-lg-8 clearfix">
+          <div className="adpost-details post-resume">
+            <div className="row">
+              <div className="col-lg-8 clearfix">
                 <form action="#">
                   <fieldset>
-                    <div class="section express-yourself">
+                    <div className="section express-yourself">
                       <h4>Express Yourself</h4>
-                      <div class="row form-group">
-                        <label class="col-md-4 label-title">Full Name</label>
-                        <div class="col-md-8">
+                      <div className="row form-group">
+                        <label className="col-md-4 label-title">Full Name</label>
+                        <div className="col-md-8">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="ex Jhon Doe"
                           />
                         </div>
                       </div>
-                      <div class="row form-group additional-information">
-                        <label class="col-md-4 label-title">
+                      <div className="row form-group additional-information">
+                        <label className="col-md-4 label-title">
                           Additional Information
                         </label>
-                        <div class="col-md-8">
+                        <div className="col-md-8">
                           <textarea
-                            class="form-control"
+                            className="form-control"
                             placeholder="Address: 123 West 12th Street, Suite 456 New York, NY 123456\n Phone: +012 345 678 910 \n Email: itsme@surzilegeek.com*"
                           ></textarea>
                         </div>
                       </div>
-                      <div class="row form-group photos-resume">
-                        <label class="col-md-4 label-title">
+                      <div className="row form-group photos-resume">
+                        <label className="col-md-4 label-title">
                           Photos for your Resume
                         </label>
-                        <div class="col-md-8 ">
+                        <div className="col-md-8 ">
                           <label
-                            class="upload-image left"
+                            className="upload-image left"
                             for="upload-image-one"
                           >
                             Type: JPG, PNG Size: 3.5 x 4.5 cm
                           </label>
                           <input type="file" id="upload-image-one" />
-                          <label class="upload-image" for="upload-image-two">
+                          <label className="upload-image" for="upload-image-two">
                             Upload Photo
                           </label>
                           <input type="file" id="upload-image-two" />
                         </div>
                       </div>
                     </div>
-                    <div class="section career-objective">
+                    <div className="section career-objective">
                       <h4>Career Objective</h4>
-                      <div class="form-group">
+                      <div className="form-group">
                         <textarea
-                          class="form-control"
+                          className="form-control"
                           placeholder="Write few lines about your career objective"
                           rows="8"
                         ></textarea>
                       </div>
                       <span>5000 characters left</span>
                     </div>
-                    <div class="section">
+                    <div className="section">
                       <h4>Work History</h4>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">Compnay Name</label>
-                        <div class="col-md-9">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">Compnay Name</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Name"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">Designation</label>
-                        <div class="col-md-9">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">Designation</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Human Resource Manager"
                           />
                         </div>
                       </div>
-                      <div class="row form-group time-period">
-                        <label class="col-md-3 label-title">Time Period</label>
-                        <div class="col-md-9">
+                      <div className="row form-group time-period">
+                        <label className="col-md-3 label-title">Time Period</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="dd/mm/yy"
                           />
                           <span>-</span>
                           <input
                             type="text"
                             name="name"
-                            class="form-control pull-right"
+                            className="form-control pull-right"
                             placeholder="dd/mm/yy"
                           />
                         </div>
                       </div>
-                      <div class="row form-group job-description">
-                        <label class="col-md-3 label-title">
+                      <div className="row form-group job-description">
+                        <label className="col-md-3 label-title">
                           Job Description
                         </label>
-                        <div class="col-md-9">
+                        <div className="col-md-9">
                           <textarea
-                            class="form-control"
+                            className="form-control"
                             placeholder
                             rows="8"
                           ></textarea>
                         </div>
                       </div>
-                      <div class="buttons pull-right">
-                        <a href="#" class="btn">
+                      <div className="buttons pull-right">
+                        <a href="#" className="btn">
                           Add New Exprience
                         </a>
-                        <a href="#" class="btn delete">
+                        <a href="#" className="btn delete">
                           Delete
                         </a>
                       </div>
                     </div>
-                    <div class="section education-background">
+                    <div className="section education-background">
                       <h4>Education Background</h4>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">
                           Institute Name
                         </label>
-                        <div class="col-md-9">
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="ropbox"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">Degree</label>
-                        <div class="col-md-9">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">Degree</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Human Resource Manager"
                           />
                         </div>
                       </div>
-                      <div class="row form-group time-period">
-                        <label class="col-md-3 label-title">Time Period</label>
-                        <div class="col-md-9">
+                      <div className="row form-group time-period">
+                        <label className="col-md-3 label-title">Time Period</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="dd/mm/yy"
                           />
                           <span>-</span>
                           <input
                             type="text"
                             name="name"
-                            class="form-control pull-right"
+                            className="form-control pull-right"
                             placeholder="dd/mm/yy"
                           />
                         </div>
                       </div>
-                      <div class="row form-group job-description">
-                        <label class="col-md-3 label-title">Description</label>
-                        <div class="col-md-9">
+                      <div className="row form-group job-description">
+                        <label className="col-md-3 label-title">Description</label>
+                        <div className="col-md-9">
                           <textarea
-                            class="form-control"
+                            className="form-control"
                             placeholder
                             rows="8"
                           ></textarea>
                         </div>
                       </div>
-                      <div class="buttons pull-right">
-                        <a href="#" class="btn">
+                      <div className="buttons pull-right">
+                        <a href="#" className="btn">
                           Add New Education
                         </a>
-                        <a href="#" class="btn delete">
+                        <a href="#" className="btn delete">
                           Delete
                         </a>
                       </div>
                     </div>
-                    <div class="section special-qualification">
+                    <div className="section special-qualification">
                       <h4>Special Qualification</h4>
-                      <div class="form-group item-description">
+                      <div className="form-group item-description">
                         <textarea
-                          class="form-control"
+                          className="form-control"
                           placeholder="Write few lines about your special qualification"
                           rows="8"
                         ></textarea>
                       </div>
                     </div>
-                    <div class="section language-proficiency">
+                    <div className="section language-proficiency">
                       <h4>Language Proficiency:</h4>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">
                           Language Name
                         </label>
-                        <div class="col-md-9">
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="English"
                           />
                         </div>
                       </div>
-                      <div class="row form-group rating">
-                        <label class="col-md-3 label-title">Rating</label>
-                        <div class="col-md-9">
-                          <div class="rating-star">
-                            <div class="rating">
+                      <div className="row form-group rating">
+                        <label className="col-md-3 label-title">Rating</label>
+                        <div className="col-md-9">
+                          <div className="rating-star">
+                            <div className="rating">
                               <input type="radio" id="star1" name="rating" />
-                              <label class="full" for="star1"></label>
+                              <label className="full" for="star1"></label>
                               <input type="radio" id="star2" name="rating" />
-                              <label class="half" for="star2"></label>
+                              <label className="half" for="star2"></label>
                               <input type="radio" id="star3" name="rating" />
-                              <label class="full" for="star3"></label>
+                              <label className="full" for="star3"></label>
                               <input type="radio" id="star4" name="rating" />
-                              <label class="half" for="star4"></label>
+                              <label className="half" for="star4"></label>
                               <input type="radio" id="star5" name="rating" />
-                              <label class="full" for="star5"></label>
+                              <label className="full" for="star5"></label>
                               <input type="radio" id="star6" name="rating" />
-                              <label class="half" for="star6"></label>
+                              <label className="half" for="star6"></label>
                               <input type="radio" id="star7" name="rating" />
-                              <label class="full" for="star7"></label>
+                              <label className="full" for="star7"></label>
                               <input type="radio" id="star8" name="rating" />
-                              <label class="half" for="star8"></label>
+                              <label className="half" for="star8"></label>
                               <input type="radio" id="star9" name="rating" />
-                              <label class="full" for="star9"></label>
+                              <label className="full" for="star9"></label>
                               <input type="radio" id="star10" name="rating" />
-                              <label class="half" for="star10"></label>
+                              <label className="half" for="star10"></label>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="buttons pull-right">
-                        <a href="#" class="btn">
+                      <div className="buttons pull-right">
+                        <a href="#" className="btn">
                           Add New Language
                         </a>
-                        <a href="#" class="btn delete">
+                        <a href="#" className="btn delete">
                           Delete
                         </a>
                       </div>
                     </div>
-                    <div class="section company-information">
+                    <div className="section company-information">
                       <h4>Personal Deatils</h4>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">Full Name</label>
-                        <div class="col-md-9">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">Full Name</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Jhon Doe"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">
                           Father's Name
                         </label>
-                        <div class="col-md-9">
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Robert Doe"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">
                           Mother's Name
                         </label>
-                        <div class="col-md-9">
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Imdatic Roderos Doe"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">
                           Date of Birth
                         </label>
-                        <div class="col-md-9">
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="26/01/1982"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">Birth Place</label>
-                        <div class="col-md-9">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">Birth Place</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="United State of America"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">Nationality</label>
-                        <div class="col-md-9">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">Nationality</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Canadian"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">Sex</label>
-                        <div class="col-md-9">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">Sex</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="Male"
                           />
                         </div>
                       </div>
-                      <div class="row form-group">
-                        <label class="col-md-3 label-title">Address</label>
-                        <div class="col-md-9">
+                      <div className="row form-group">
+                        <label className="col-md-3 label-title">Address</label>
+                        <div className="col-md-9">
                           <input
                             type="text"
                             name="name"
-                            class="form-control"
+                            className="form-control"
                             placeholder="121 King Street, Melbourne Victoria, 1200 USA"
                           />
                         </div>
                       </div>
-                      <div class="buttons pull-right">
-                        <a href="#" class="btn">
+                      <div className="buttons pull-right">
+                        <a href="#" className="btn">
                           Add New Feild
                         </a>
                       </div>
                     </div>
-                    <div class="section special-qualification">
+                    <div className="section special-qualification">
                       <h4>Declaration</h4>
-                      <div class="form-group item-description">
+                      <div className="form-group item-description">
                         <textarea
-                          class="form-control"
+                          className="form-control"
                           placeholder
                           rows="8"
                         ></textarea>
@@ -379,20 +379,20 @@ function EditResume() {
                     </div>
                   </fieldset>
                 </form>
-                <div class="buttons">
-                  <a href="#" class="btn">
+                <div className="buttons">
+                  <a href="#" className="btn">
                     Update Profile
                   </a>
-                  <a href="#" class="btn cancle">
+                  <a href="#" className="btn cancle">
                     Cancle
                   </a>
                 </div>
               </div>
 
-              <div class="col-lg-4">
-                <div class="section quick-rules">
+              <div className="col-lg-4">
+                <div className="section quick-rules">
                   <h4>Quick rules</h4>
-                  <p class="lead">
+                  <p className="lead">
                     Posting an ad on <a href="#">jobs.com</a> is free! However,
                     all ads must follow our rules:
                   </p>
